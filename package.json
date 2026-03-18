@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "node-fetch": "^2.7.0",
+    "react-native-dotenv": "^3.4.11"
+  }
+}
