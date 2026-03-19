@@ -13,14 +13,36 @@ The app follows a layered architecture:
 - **State/Logic Layer**: Screen state, chart range handling, search filtering, and theme handling
 - **Navigation Layer**: Screen routing and modal transitions
 
-## File Architecture
+# Crypto-Lens System Architecture
 
+## 1. App Overview
+
+Crypto-Lens is a React Native + Expo crypto dashboard app that includes:
+
+- Splash screen
+- Home dashboard
+- Market screen
+- Coin detail modal
+- Market news feed
+- Article viewer
+- Settings
+- Sentiment modal
+- Live chart support
+- Dark/light theme support
+
+The app follows a screen-based architecture with reusable UI components and isolated API services.
+
+---
+
+## 2. Recommended Folder / File Architecture
+
+```text
 Crypto-Lens/
 ├── App.js
 ├── app.json
 ├── eas.json
 ├── package.json
-├��─ assets/
+├── assets/
 │   ├── favicon.png
 │   ├── splash.png
 │   ├── logo.png
@@ -60,11 +82,6 @@ Crypto-Lens/
 │       ├── date.js
 │       └── helpers.js
 └── README.md
-
-
-
-
-
 
 
 
