@@ -87,14 +87,13 @@ Crypto-Lens/
 
 
 
-
-### Root Files
+Root Files
 - `App.js`
   - Entry point of the application
   - Handles splash flow and app initialization
   - Sets up navigation and theme loading
 
-### Screens
+Screens
 - `HomeScreen.js`
   - Main dashboard
   - Displays watchlist, movers, and news
@@ -108,7 +107,7 @@ Crypto-Lens/
 - `SettingsScreen.js`
   - Theme and app settings
 
-### Components
+Components
 - `CoinCard.js`
   - Coin display card for lists and watchlists
 - `CoinChart.js`
@@ -117,8 +116,7 @@ Crypto-Lens/
   - News preview card
 - `SentimentCard.js`
   - Market sentiment display card
-
-### Services
+Services
 - `services/cryptoService.js`
   - Fetches coin list and pricing data
 - `services/newsService.js`
@@ -130,9 +128,10 @@ Crypto-Lens/
 - `services/retryFetch.js`
   - Adds retry logic to network calls
 
-## Main Screens
 
-### 1. Splash Screen
+Main Screens
+
+###1. Splash Screen
 **File:** `App.js`
 
 Purpose:
@@ -166,6 +165,7 @@ Purpose:
 
 ### 5. Market News Screen
 **File:** `MarketNewsScreen.js`
+
 
 Purpose:
 - Display latest crypto-related news
