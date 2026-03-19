@@ -87,7 +87,7 @@ Crypto-Lens/
 
 
 
-Root Files
+## Root Files
 - `App.js`
   - Entry point of the application
   - Handles splash flow and app initialization
@@ -129,7 +129,7 @@ Services
   - Adds retry logic to network calls
 
 
-Main Screens
+## Main Screens
 
 ###1. Splash Screen
 **File:** `App.js`
